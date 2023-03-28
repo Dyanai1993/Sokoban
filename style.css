@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(9, 111, 129);
+    color: white;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.score-screen {
+    width: 300px;
+    height: 150px;
+    background-color: rgb(5, 36, 138);
+    margin-inline-start: 4.5em;
+    margin-block-end: 1em;
+    border-radius: 20px;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+}
+
+
+.cell img {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.floor {
+    background-color: rgb(179, 160, 50);
+}
+
+.wall {
+    background-image: url('img/wall.jpg');
+}
+
+.target {
+    background-color: rgb(116, 25, 25);
+}
+
+.box {
+    background-image: url(img/box.jpg);
+}
+
+.modal {
+    display: none;
+    background-color: rgb(19, 101, 207);
+    border: 5px solid white;
+    width: 300px;
+    padding: 20px;
+
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 175px);
+}
+
+button {
+    width: 100px;
+    background-color: darkseagreen;
+}
+
